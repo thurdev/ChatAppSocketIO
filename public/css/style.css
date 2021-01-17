@@ -1,0 +1,134 @@
+.login{
+    display: none;
+    margin: auto;
+    text-align:center
+}
+
+.chat{
+    display: none;
+}
+
+input{
+    border: 1px solid #ccc;
+    padding: 1em;
+    border-radius: 2px;
+    outline: none;
+}
+
+button{
+    border: 1px solid #ccc;
+    padding: 1.05em;
+    border-radius: 0px;
+    outline: none;
+}
+
+
+
+.login-btn{
+    margin-left: -0.3%;
+    padding-bottom: 1.08em;
+    background-color: #22A6F2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.login-btn:hover{
+    transition: 0.5s;
+    background-color: #1972a5;
+}
+
+@media (min-width:320px) {
+    .container{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .container>h1{
+        text-align: center;
+    }
+    .chat {
+        width: 100%;
+        height: 400px;
+    }
+    .chat>.box{
+        border: 1px solid #ccc;
+        width: 100%;
+        height: 350px;
+        max-height: 355px;
+        overflow: auto;
+        text-align: left;
+    }
+    #message {
+        width: 75%;
+    }
+    #send {
+        margin-left: -1%;
+        padding: 1em;
+        background-color: rgb(53, 184, 53);
+        cursor: pointer;
+        border: none;
+        color: white;
+        transition: 0.5s;
+        width: 17%;
+    }
+
+    #send:hover {
+        background-color: rgb(26, 109, 26);
+        transition: 0.5s;
+    }
+
+    .chat>.box>p {
+        margin-left: 2%;
+    }
+}
+
+@media (min-width:800px) {
+    .container {
+        padding-left: 15em;
+        padding-right: 15em;
+    }
+
+    .container>h1 {
+        text-align: center;
+    }
+
+    .chat {
+        border: 1px solid #ccc;
+        width: 50%;
+        height: 400px;
+    }
+    .chat>.box {
+        border: 1px solid #ccc;
+        width: 100%;
+        height: 355px;
+        max-height: 355px;
+        overflow: auto;
+        text-align: left;
+    }
+
+    .chat>.box>p{
+        margin-left: 2%;
+    }
+
+    .centered-div {
+        margin: auto;
+    }
+    #message{
+        width: 75%;
+    }
+    #send {
+        margin-left: -1%;
+        padding: 1em;
+        background-color: rgb(53, 184, 53);
+        cursor: pointer;
+        border: none;
+        color: white;
+        transition: 0.5s;
+        width: 20%;
+    }
+    #send:hover{
+        background-color: rgb(26, 109, 26);
+        transition: 0.5s;
+    }
+}
